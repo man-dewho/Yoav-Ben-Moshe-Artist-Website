@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoav Ben Moshe - Artist Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        header, section {
+            margin-bottom: 20px;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            text-align: center;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yoav Ben Moshe</h1>
+        <p>Artist Portfolio</p>
+    </header>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <!-- Add your portfolio items here -->
+            <div class="portfolio-item">
+                <img src="path/to/your/image1.jpg" alt="Artwork Title 1">
+                <p>Artwork Title 1</p>
+            </div>
+            <!-- Repeat for more artwork -->
+        </div>
+    </section>
+
+    <section id="cv">
+        <h2>CV</h2>
+        <a href="/Users/joavbenmoshe/Library/CloudStorage/GoogleDrive-yoavbenmo@gmail.com/My Drive/Art/Art Applications/TransArts 2024:2025/Stage I/CV 2024.pdf" target="_blank">Download CV (PDF)</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: yoavbenmo@gmail.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/man.dewho" target="_blank">@man.dewho</a></p>
+    </section>
+
+    <section id="newsletter">
+        <h2>Join My Newsletter</h2>
+        <form action="submit-form-url" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+</body>
+</html>
