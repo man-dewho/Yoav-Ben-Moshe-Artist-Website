@@ -223,3 +223,37 @@ main {
       padding: 2px;
   }
 }
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cv-section {
+  margin-bottom: 30px;
+}
+
+.cv-section h3 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.cv-section h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cv-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cv-section li {
+  margin-bottom: 10px;
+}
+
+.cv-year {
+  font-weight: bold;
+  margin-right: 10px;
+}
