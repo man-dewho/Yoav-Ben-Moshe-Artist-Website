@@ -162,7 +162,7 @@ main {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 .project-item img, .music-item img {
